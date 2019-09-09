@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="Autor" content="Mabel Núñez">
+    <meta name="Descripción" content="Primer encargo del curso Diseño desde el código, Construcción de Currículum Vitae con HTML">
+    <title>Currículum Vitae</title>
+  </head>
+  
+  <body>
+<!--Título y Foto-->
+<h1>Curriculum Vitae</h1>
+<figure>
+  <img="mabelnunezpicprofile.jpg"
+       alt="Fotografia de Mabel Núñez"
+       width="400"
+       hight="400">
+</figure>
+
+<!--Sección de Datos Personales-->
+<setion>
+    <h2>Datos Personales</h2>
+    <ul>
+        <li><strong>Nombre:</strong></li>
+        <dd>Mabel Núñez Tobar</dd>
+        <li><strong>Rut:</strong></li>
+        <dd>19.147.038-9.</dd>
+        <li><strong>Fecha de Nacimiento:</strong></li>
+        <dd>18 de mayo de 1995</dd>
+        <li><strong>Nacionalidad:</strong></li>
+        <dd>Chilena</dd>
+        <li><strong>Estado Civil:</strong></li>
+        <dd>Soltera</dd>
+        <li>Dirección:</li>
+        <dd>Villa Maracaibo, Pasaje A, #662, El Retiro.</dd>
+        <li><strong>Ciudad:</strong></li>
+        <dd>Quilpué</dd>
+        <li><strong>Celular:</strong></li>
+        <dd>+56945250262</dd>
+        <li><strong>Correo:</strong></li>
+        <dd><a href="maito:mabel.nunez.t@mail.pucv.cl">Mi correo institucional</a>
+        <dd><a href="mailto:mabelnuneztobal">Mi Correo personal</a>
+    </ul>
+</setion>
+
+<!--Sección de Antecedentes Educacionales-->
+<section>
+    <h2>Antedentes Educacionales</h2>
+    <ul>
+        <li><strong>Enseñanza Básica:</strong></li>
+        <dd>2000-2004: Liceo Republica de Estados Unidos.</dd>
+        <dd>2005-2008: Colegio Snata Juana de Arco.</dd>
+        <li><strong>Enseñanza Meadia</strong></li>
+        <dd>2009-2012: Colegio Santa Juana de Arco.</dd>
+        <li><strong>Enseñanza Superior:</strong></li>
+        <dd>2013-2014: Arquitectura, Universidaad Tecnica Federico Sant María.</dd>
+        <dd>2015 - : Diseño Gráfico, Escuela de Arquitectura y Diseño, Pontificia Universidad Catolica de Valparaíso.</dd>
+    </ul>
+</section>
+
+<!--Sección de Remoas Optativos Cursados y pryectos-->
+<section>
+    <h2>Ramos Optativos y Proyectos Realizdos</h2>
+    <article>
+        <h3>Interacción y Perfomatividad</h3>
+        <ul>
+            <li><strong>Modulo LED</strong></li>
+            <dd>Este proyecto trata de un dispositivo controlado con Arduino; que a traves de la pulsacion de un boton muestras distintas imagenes contruidas en una matriz led de 8x8 que intentan construir un relato inspirado en Space Invaders.</dd>
+            <dd><a href="https://wiki.ead.pucv.cl/Proyecto_led_arduino"> Revisa el Proyecto aquí</a></dd>
+            <li><strong>Fotosintetizador de Sonido</strong></li>
+            <dd>Este Proyecto trata de un dispositivo electrónico análogo, controlado por Arduino, que es capaz de reproducir distintos tonos a partir de la intensidad de la luz que recibe el sensor LDR.</dd>
+            <dd><a href="https://wiki.ead.pucv.cl/Arduino_y_Sonido">Revisa el Proyecto aquí.</a></dd>
+        </ul>
+        <h3>Taller de Diseño de Interacción</h3>
+        <ul>
+            <li><strong>Hexasomnus</strong></li>
+            <dd>Se diseño un juego de mesa como un desafío, con niveles de complejidad que sumergen al usuario en un contexto y una narrativa que lo cautiva y lo motiva a perseguir su objetivo, mediante reglas establecidas.</dd>
+            <dd><a href="https://wiki.ead.pucv.cl/Propuesta_de_Juego:_Hexasomnus">Revisa la Documentación del Proyecto aquí.</a></dd>
+            <li><strong>THEMIS</strong></li>
+            <dd>THEMIS es una aplicación digital de gobernanza, dirigida principalmente a los estudiantes pero también abierta a los exalumnos, docentes y funcionarios no académicos. Este proyecto se estructura a partir de la cooperación y coordinación de las diversas miradas y voces del cuerpo estudiantil para que, de forma transparente y desintermediada, permita el surgimiento de propuestas originales, viables y que generen el compromiso de la comunidad universitaria.</dd>
+            <dd><a href="https://wiki.ead.pucv.cl/THEMIS">Revisa la Documentación del Proyecto aquí</a></dd>
+        </ul>
+    </article>
+</section>
